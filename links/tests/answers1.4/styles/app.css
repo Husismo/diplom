@@ -89,3 +89,12 @@ body, html
 {
 	background: #B3B3B3;
 }
+
+@media (max-width: 450px){
+	.quiz__head{
+		font-size: 10px;
+	}
+	.button{
+		font-size: 10px;
+	}
+}
