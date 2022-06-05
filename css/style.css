@@ -499,6 +499,12 @@ background: #21418C;
   display: none;
 }
 
+.img__pic{
+  width: 80%;
+}
+
+
+
 
 
 @media (max-width: 1100px){
@@ -506,13 +512,13 @@ background: #21418C;
     display: none;
   }
   .main__content img{
-    width: 600px;
-    height: 400px;
+  width: 100%;
+  height: auto;
   }
 
 .video__popup_2{
-  width: 600px;
-    height: 400px;
+  width: 100%;
+  height: auto;
 }
   
   .footer__content{
@@ -544,12 +550,12 @@ background: #21418C;
 
 @media (max-width: 780px){
   .main__content img{
-    width: 400px;
-    height: 200px;
+    width: 100%;
+  height: auto;
   }
   .video__popup, .video__popup_2{
-    width: 400px;
-      height: 200px;
+    width: 100%;
+  height: auto;
   }
   .slick-right {
     display: none;
@@ -582,12 +588,12 @@ background: #21418C;
 
 @media (max-width: 490px){
   .video__popup, .video__popup_2{
-    width: 300px;
-      height: 200px;
+    width: 100%;
+    height: auto;
   }
   .main__content img{
-    width: 200px;
-    height: 100px;
+    width: 100%;
+  height: auto;
   }
   .animation__button{
     font-size: 15px;
@@ -598,13 +604,15 @@ background: #21418C;
 
 @media (max-width: 400px){
   .main__content img{
-    width: 100px;
-    height: 50px;
+    width: 100%;
+  height: auto;
   }
 
+
+
   .video__popup, .video__popup_2{
-    width: 100px;
-      height: 70px;
+    width: 100%;
+  height: auto;
   }
  
   .footer__phone{
